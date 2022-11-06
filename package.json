@@ -1,0 +1,24 @@
+{
+  "name": "assign-mentor",
+  "version": "1.0.0",
+  "description": "I have created Backend API opened with multiple rest API endpoints for frontend to create a mentor , create a student, assign a student to mentor , modify mentor for a particular student,  show all students for a particular mentor.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
